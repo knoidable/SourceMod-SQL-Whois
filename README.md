@@ -31,6 +31,6 @@ The notification timer is set for 2 minutes - you may want to adjust this or dis
 ## Installation
 - Edit whois.sp and [recompile](https://www.sourcemod.net/compiler.php) the .smx if needed.
 - Stop your server.
-- Drop the .smx into your plugins directory.
+- Drop whois.smx into your plugins directory.
 - Login to the SQL server you're using for sourcemod and run the contents of whois.sql.txt - this will setup all the tables needed.
 - Start your server. 
