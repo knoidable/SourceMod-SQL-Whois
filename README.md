@@ -1,5 +1,5 @@
 # SourceMod-SQL-Whois
-##### Plugin for SourceMod to allow player tracking across multiple servers
+#### SourceMod plugin that tracks players across multiple servers
 
 I wrote this is 2009-10 when our gaming community was running multiple TF2 and L4D/L4D2 servers. Last time we ran a TF2 server (6 years or so back) this plugin still worked, so I'm presuming that's still the case.
 
