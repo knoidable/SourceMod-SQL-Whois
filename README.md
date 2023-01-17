@@ -22,14 +22,14 @@ The notification timer is set for 2 minutes - you may want to adjust this or dis
 ## Commands
 | Command | Description|
 |----|----|
-| sm_whois <steamID|name> | Show a player's activity |
+| sm_whois \<steamID\|name\> | Show a player's activity |
 | sm_lan | Show current players using the same IP address |
-| sm_note <steamID|name> <note> | Record note on player's record |
-| sm_watch <steamID|name> <reason> | Record watch against player (reason required) |
-| sm_unwatch <steamID|name> <reason> | Remove existing watch against player (reason required) |
+| sm_note \<steamID\|name\> \<note\> | Record note on player's record |
+| sm_watch \<steamID\|name\> \<reason\> | Record watch against player (reason required) |
+| sm_unwatch \<steamID\|name\> \<reason\> | Remove existing watch against player (reason required) |
 
 ## Installation
-- Edit and recompile the .smx if needed.
+- Edit whois.sp and [recompile](https://www.sourcemod.net/compiler.php) the .smx if needed.
 - Stop your server.
 - Drop the .smx into your plugins directory.
 - Login to the SQL server you're using for sourcemod and run the contents of whois.sql.txt - this will setup all the tables needed.
