@@ -10,7 +10,7 @@ I had a look at the current crop of Sourcemod plugins and while there are a coup
 It's not perfect, and there's a few things I wanted to add but never got to, but it is really rather good.
 
 ## Dependencies
-You *will* need an SQL database for this plugin. Takes more setup, but allows you to track players across multiple servers and games.
+MariaDB or MySQL database. Does not work with SQLite!
 
 ## Features
 - records kicks and bans with reasons on a player's record
@@ -30,6 +30,8 @@ The notification timer is set for 2 minutes - you may want to adjust this or dis
 
 ## Installation
 - Edit whois.sp and [recompile](https://www.sourcemod.net/compiler.php) the .smx if needed.
+- Turn off Strict SQL mode by adding 'sql_mode=NO_ENGINE_SUBSTITUTION' to your MySQL/MariaDB my.cnf.
+- Restart the DB.
 - Stop your server.
 - Drop whois.smx into your plugins directory.
 - Login to the SQL server you're using for sourcemod and run the contents of whois.sql.txt - this will setup all the tables needed.
