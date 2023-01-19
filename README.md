@@ -28,6 +28,9 @@ The notification timer is set for 2 minutes - you may want to adjust this or dis
 | sm_watch \<steamID\|name\> \<reason\> | Record watch against player (reason required) |
 | sm_unwatch \<steamID\|name\> \<reason\> | Remove existing watch against player (reason required) |
 
+## Example Output
+![Example Whois Output](whois.png)
+
 ## Installation
 - Edit whois.sp and [recompile](https://www.sourcemod.net/compiler.php) the .smx if needed.
 - Turn off Strict SQL mode by adding 'sql_mode=NO_ENGINE_SUBSTITUTION' to your MySQL/MariaDB my.cnf.
