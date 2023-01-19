@@ -10,7 +10,7 @@ I had a look at the current crop of Sourcemod plugins and while there are a coup
 It's not perfect, and there's a few things I wanted to add but never got to, but it is really rather good.
 
 ## Dependencies
-MariaDB or MySQL database. Does not work with SQLite!
+[SQL admins](https://wiki.alliedmods.net/SQL_Admins_(SourceMod)) enabled and running off a MariaDB or MySQL database. Does not work with SQLite!
 
 ## Features
 - records kicks and bans with reasons on a player's record
