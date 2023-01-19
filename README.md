@@ -1,7 +1,7 @@
 # SourceMod-SQL-Whois
 #### SourceMod plugin that tracks players across multiple servers
 
-I wrote this is 2009-10 when our gaming community was running multiple Team Fortress 2 and Left 4 Dead/L4D2 servers. Last time we ran a TF2 server (6 years or so back) this plugin still worked, so I'm presuming that's still the case.
+I wrote this is 2009-10 when our gaming community was running multiple Team Fortress 2 and Left 4 Dead/L4D2 servers. I tested it tonight on a freshly-installed server, and it still works, although I had to disable strict SQL mode which is now apparently A Thing.
 
 It's a port of Bugblatter's [plugin_blatt_whois](https://web.archive.org/web/20111015055345/http://www.ravenousbugblatterbeast.pwp.blueyonder.co.uk/BugblatterPlugins/plugin_blatt_whois/Docs/index.htm) for Adminmod, the major difference (AM/SM aside) being that it stores in a central database rather than 5 zillion flatfiles.
 
